@@ -1,0 +1,1 @@
+python -m venv .\myvenv & .\myvenv\Scripts\activate & pip install django & django-admin startproject myproject & pip freeze > requirements.txt & py .\myproject\manage.py runserver
